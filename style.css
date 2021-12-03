@@ -1,0 +1,148 @@
+.name{
+    margin: 20px;
+    position: absolute;
+    top: 250px;
+}
+.age{
+    margin: 20px;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.scroll{
+    margin: 20px;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+}
+.name2{
+    position:relative;
+    position:relative;
+}
+.age2{
+    position:relative;
+    position:relative;
+}
+.s1{
+    position:relative;
+    position:relative;
+}
+.name2::before,
+.name2::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.name2::before{
+    background: #12161b;
+    animation: type 4s steps(20) 6.5s forwards;
+}
+.name2::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 4s steps(20) 6.5s forwards, blinker .5s 6s 15;
+}
+.age2::before,
+.age2::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.age2::before{
+    background: #12161b;
+    animation: type 4s steps(20) 14s forwards;
+}
+.age2::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type2 4s steps(20) 14s forwards, blinker .5s 13.5s 11;
+}
+.title{
+    position: relative;
+    position:relative;
+    width: max-content;
+}
+.title::before,
+.title::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.title::before{
+    background: #12161b;
+    animation: type 2s steps(11) 1s forwards;
+}
+.title::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 2s steps(11) 1s forwards, blinker .5s 11;
+}
+.s1::before,
+.s1::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.s1::before{
+    background: #12161b;
+    animation: type 5s steps(37) 19s forwards;
+}
+.s1::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 5s steps(37) 19s forwards, blinker .5s 18.5s infinite;
+}
+@keyframes type{
+to{
+    left:100%;
+}
+}
+@keyframes type2{
+    to{
+        left:100%;
+    }
+    }
+@keyframes blinker{
+    to{
+        background: white;
+    }
+
+}
+
+
+span {
+
+    font-weight: bold;
+    
+    }
+    .custom-shape-divider-bottom-1638500370 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1638500370 svg {
+        position: relative;
+        display: block;
+        width: calc(184% + 1.3px);
+        height: 100px;
+    }
+    
+    .custom-shape-divider-bottom-1638500370 .shape-fill {
+        fill: #5739dd;
+    }

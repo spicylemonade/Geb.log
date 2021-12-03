@@ -9,10 +9,63 @@
     top: 350px;
     left: 50px;
 }
+
+.m1{
+    margin: 20px;
+    position: absolute;
+    top: 480px;
+    left: 100px;
+}
+.m2{
+    margin: 20px;
+    position: absolute;
+    top: 520px;
+    left: 100px;
+}
+.m3{
+    margin: 20px;
+    position: absolute;
+    top: 560px;
+    left: 100px;
+}
+.m4{
+    margin: 20px;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+.m5{
+    margin: 20px;
+    position: absolute;
+    top: 640px;
+    left: 100px;
+}
+.m6{
+    margin: 20px;
+    position: absolute;
+    top: 680px;
+    left: 100px;
+}
+.m7{
+    margin: 20px;
+    position: absolute;
+    top: 720px;
+    left: 100px;
+}
+.m8{
+    margin: 20px;
+    position: absolute;
+    top: 440px;
+    left: 100px;
+}
+
+
+
+
 .scroll{
     margin: 20px;
     position: absolute;
-    top: 450px;
+    top: 400px;
     left: 100px;
 }
 .name2{
@@ -26,6 +79,46 @@
 .s1{
     position:relative;
     position:relative;
+}
+.c1{
+    position:relative;
+    position:relative;
+    width: max-content;
+}
+.c2{
+    position:relative;
+    position:relative;
+    width: max-content;
+}
+.c3{
+    position:relative;
+    position:relative;
+    width: max-content;
+}
+.c4{
+    position:relative;
+    position:relative;
+    width: max-content;
+}
+.c5{
+    position:relative;
+    position:relative;
+    width: max-content;
+}
+.c6{
+    position:relative;
+    position:relative;
+    width: max-content;
+}
+.c7{
+    position:relative;
+    position:relative;
+    width: max-content;
+}
+.c8{
+    position:relative;
+    position:relative;
+    width: max-content;
 }
 .name2::before,
 .name2::after{
@@ -86,6 +179,152 @@
     background: transparent;
     animation: type 2s steps(11) 1s forwards, blinker .5s 11;
 }
+
+.c1::before,
+.c1::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c1::before{
+    background: #12161b;
+    animation: type 5s steps(21) 19s forwards;
+}
+.c1::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 5s steps(21) 19s forwards, blinker .5s 18.5s 11;
+}
+
+.c2::before,
+.c2::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c2::before{
+    background: #12161b;
+    animation: type 1.5s steps(28) 27s forwards;
+}
+.c2::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 1.5s steps(28) 27s forwards, blinker .5s 26.5s 4;
+}
+.c3::before,
+.c3::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c3::before{
+    background: #12161b;
+    animation: type 1.5s steps(30) 29s forwards;
+}
+.c3::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 1.5s steps(30) 29s forwards, blinker .5s 28.5s 4;
+}
+.c4::before,
+.c4::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c4::before{
+    background: #12161b;
+    animation: type 1s steps(13) 32s forwards;
+}
+.c4::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 1s steps(13) 32s forwards, blinker .5s 31.5s 5;
+}
+.c5::before,
+.c5::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c5::before{
+    background: #12161b;
+    animation: type 1.5s steps(15) 35s forwards;
+}
+.c5::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 1.5s steps(15) 35s forwards, blinker .5s 34.5s 5;
+}
+.c6::before,
+.c6::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c6::before{
+    background: #12161b;
+    animation: type 1.5s steps(15) 37s forwards;
+}
+.c6::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 1.5s steps(15) 37s forwards, blinker .5s 36.5s 5;
+}
+.c7::before,
+.c7::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c7::before{
+    background: #12161b;
+    animation: type 2s steps(25) 39s forwards;
+}
+.c7::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 2s steps(25) 39s forwards, blinker .5s 38.5s 7;
+}
+.c8::before,
+.c8::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.c8::before{
+    background: #12161b;
+    animation: type 3s steps(13) 41s forwards;
+}
+.c8::after{
+    width: 0.125em;
+    background: transparent;
+    animation: type 3s steps(13) 41s forwards, blinker .5s 40.1s infinite;
+}
 .s1::before,
 .s1::after{
     content:"";
@@ -97,12 +336,12 @@
 }
 .s1::before{
     background: #12161b;
-    animation: type 5s steps(37) 19s forwards;
+    animation: type 1.5s steps(37) 25s forwards;
 }
 .s1::after{
     width: 0.125em;
     background: transparent;
-    animation: type 5s steps(37) 19s forwards, blinker .5s 18.5s infinite;
+    animation: type 1.5s steps(37) 25s forwards, blinker .5s 23.5s 9;
 }
 @keyframes type{
 to{
@@ -129,7 +368,7 @@ span {
     }
     .custom-shape-divider-bottom-1638500370 {
         position: absolute;
-        bottom: 0;
+        bottom: -150px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -140,9 +379,47 @@ span {
         position: relative;
         display: block;
         width: calc(184% + 1.3px);
-        height: 100px;
+        height: 250px;
     }
     
     .custom-shape-divider-bottom-1638500370 .shape-fill {
         fill: #5739dd;
     }
+    .pyimage{
+        position: absolute;
+        right: 550px;
+        width: 120px;
+        height: 120px;
+        bottom:-130px;
+
+    }
+    .cimage{
+        position: absolute;
+        right: 300px;
+        width: 100px;
+        height: 100px;
+        bottom:-130px;
+
+    }
+.fclick{
+    position: absolute;
+    left: 450px;
+    width: 50px;
+    height: 50px;
+    bottom:90px;
+    background: #23DE24;
+    border-radius: 360px;
+
+}
+.c2021{
+    position: absolute;
+    right:50px;
+}
+.exp{
+    position: absolute;
+    right:100px;
+}
+.projects{
+    position: absolute;
+    right:150px;
+}

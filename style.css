@@ -430,17 +430,3 @@ span {
     position: absolute;
     right:150px;
 }
-/* For Mobile */
-@media screen and (max-width: 540px) {
-    .view {
-        width: 400px;
-    }
-}
-
-/* For Tablets */
-@media screen and (min-width: 200mm) and (max-width: 256.125mm) {
-    .view{
-    top: 0;
-        
-    }
-}

@@ -1,11 +1,11 @@
 .name{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 250px;
 }
 .age{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 350px;
     left: 50px;
 }
@@ -69,7 +69,7 @@
 
 .scroll{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 400px;
     left: 100px;
 }

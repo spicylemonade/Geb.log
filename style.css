@@ -12,49 +12,54 @@
 
 .m1{
     margin: 20px;
+    position: relative;
+    top: 480px;
+    left: 100px;
+}
+.ulti{
     position: absolute;
     top: 480px;
     left: 100px;
 }
 .m2{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 520px;
     left: 100px;
 }
 .m3{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 560px;
     left: 100px;
 }
 .m4{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 600px;
     left: 100px;
 }
 .m5{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 640px;
     left: 100px;
 }
 .m6{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 680px;
     left: 100px;
 }
 .m7{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 720px;
     left: 100px;
 }
 .m8{
     margin: 20px;
-    position: absolute;
+    position: relative;
     top: 440px;
     left: 100px;
 }

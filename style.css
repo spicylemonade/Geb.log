@@ -439,7 +439,7 @@ span {
 
 /* For Tablets */
 @media screen and (min-width: 200mm) and (max-width: 256.125mm) {
-    .m1{
+    .view{
     top: 0;
         
     }

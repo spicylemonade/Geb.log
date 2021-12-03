@@ -12,13 +12,43 @@
         }
     </style>
 <div>
+<script type="text/javascript">
+    function show(){
+        const pyimage = document.getElementById('pyimage');
+        const cimage = document.getElementById('cimage');
+        pyimage.style.bottom = '300px';
+        cimage.style.bottom = '200px';
+        pyimage.style.transform='rotate(315deg)';
+        cimage.style.transform='rotate(260deg)';
+
+
+    }
+</script>
+<style media="screen">
+    .pyimage{
+        transition: bottom 2s, transform 4s;
+    }
+    </style>
+<style media='screen'>
+    .cimage{
+        transition: bottom 2s, transform 4s;
+    }
+</style>
 <h1 class='title'>
     < Geb.log >
 </h1>
 </div>
 </head>
-<div style="text-align:right;">
-<a href="2021.html" style="color:#ffffff">2021</a>
+<div class="c2021">
+    <div>
+<a href="2021.html" style="color:#ffffff">2021
+</a></div>
+</div>
+<div class='exp'>
+    <a href="languages.html" style="color:#ffffff">Exp </a>
+</div>
+<div class='projects'>
+    <a href="projects.html" style="color:#ffffff">Pr0jects </a>
 </div>
 <div class="name">
 <body>
@@ -30,18 +60,38 @@
 < current_age = <span style="color: #7155eb">15</span> ></h4>
 </div>
 <div class="scroll">
-    <p class="s1">
-        python_img = image.load(<span style="color:#7155eb">"python.png"</span>)<br></p>
-        <p>c#_img= image.load(<span style="color:#7155eb">"c#.png"</span>)<br>
-        <br>
-        dif show_next(python,c#):<br>
-        &emsp; &emsp;screen.blit(python,c#)<br>
-            <br>
-
-        if scrolling == True:<br>
-        &emsp; &emsp;show_next(python_img,c#_img)<br>
-        <span style="color:#616d7a ">#hint scroll..</span>
-    </p>
+    <p class='c1'>from PIL import Image</p><br>
+</div>
+<div class="m1">
+    <p class="c2">c#_img= Image.open(<span style="color:#7155eb">"c#.png"</span>)</p><br>
+</div>
+<div class="m2">
+    <p class='c3'>def show_languages(python,c#):</p>
+</div>
+<div class="m3">
+    <p class="c4">&emsp;&emsp;python.show()</p>
+</div>
+<div class="m4">
+    <p class="c5">&emsp;&emsp;c#.show()</p>
+</div>
+<div class="m5">
+    <p class="c6">def on_click():</p>
+</div>
+<div class="m6">
+    <p class="c7">&emsp;&emsp;show_languages(python_img,c#_img)</p>
+</div>
+<div class="m7">
+    <span class="c8" style="color:#616d7a ">#hint click..</span>
+</div>
+<div class="m8">
+    <p class="s1">python_img = Image.open(<span style="color:#7155eb">"python.png"</span>)<br></p>
+</div>
+<button type="button" class="fclick" onclick="show()" onclick="showw()"></button>
+<div>
+    <img id='pyimage' class= "pyimage" src="python.png" alt="pyimage">
+</div>
+<div>
+    <img id='cimage' class= "cimage" src="csharp.png" alt="cimage">
 </div>
 <section class="red">
     <div class="custom-shape-divider-bottom-1638500370">

@@ -1,65 +1,60 @@
 .name{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 250px;
 }
 .age{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 350px;
     left: 50px;
 }
 
 .m1{
     margin: 20px;
-    position: relative;
-    top: 480px;
-    left: 100px;
-}
-.ulti{
     position: absolute;
     top: 480px;
     left: 100px;
 }
 .m2{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 520px;
     left: 100px;
 }
 .m3{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 560px;
     left: 100px;
 }
 .m4{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 600px;
     left: 100px;
 }
 .m5{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 640px;
     left: 100px;
 }
 .m6{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 680px;
     left: 100px;
 }
 .m7{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 720px;
     left: 100px;
 }
 .m8{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 440px;
     left: 100px;
 }
@@ -69,7 +64,7 @@
 
 .scroll{
     margin: 20px;
-    position: relative;
+    position: absolute;
     top: 400px;
     left: 100px;
 }

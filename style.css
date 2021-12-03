@@ -75,6 +75,7 @@
 .age2{
     position:relative;
     position:relative;
+    width: max-content;
 }
 .s1{
     position:relative;
@@ -154,7 +155,7 @@
 .age2::after{
     width: 0.125em;
     background: transparent;
-    animation: type2 4s steps(20) 14s forwards, blinker .5s 13.5s 11;
+    animation: type 4s steps(20) 14s forwards, blinker .5s 13.5s 11;
 }
 .title{
     position: relative;
@@ -359,6 +360,12 @@ to{
     }
 
 }
+@keyframes type2{
+    from{bottom:-110px}
+    to{
+        bottom:90px;
+    }
+    }
 
 
 span {
@@ -406,10 +413,10 @@ span {
     left: 450px;
     width: 50px;
     height: 50px;
-    bottom:90px;
+    bottom:-110px;
     background: #23DE24;
     border-radius: 360px;
-
+    animation: type2 2s 40s forwards;
 }
 .c2021{
     position: absolute;

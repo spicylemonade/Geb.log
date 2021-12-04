@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html style="font-family: Consolas,monaco,monospace; color: #ffffff;">
 <head>
+    <link rel="stylesheet" type="text/css" href="style2.css">
     <title> 2021.log 
     </title>
     <style>
+        input::placeholder {
+
+color: #7b8ba8;
+
+opacity: 1;
+        }
         body{
             background: #12161b;
         }
     </style>
+    <script type="text/javascript">
+        function showl(){
+            const blog = document.getElementById('texty');
+            const password = document.getElementById('pass');
+            if (password.value === "bjbomb"){
+                blog.style.opacity = '100%';
+                console.log('worked');
+
+            }
+            else{
+                console.log('nope');
+                console.log(password.value);
+            }
+        }
+    </script>
     </head>
 <body>
     <h2>
         < 2021.log >
     </h2>
+<div >
+    <input class="intext" id="pass" type="password" placeholder=" Password">
+</div>
+<div>
+    <button type="button" class="pass" onclick="showl()"></button>
+</div>
+<div class="blogs" id="texty" style="opacity: 0%">
+    <h3>December</h3><br>
+    <h4>&emsp;&emsp;12-3 7:37PM</h4><br>
+    <p>&emsp;&emsp;Finished username and password system for my website. I am now able to type an internet diary of sorts via edditing it straigt from the
+        html
+    </p>
+
+</div>
 </body>
 
 </html>
